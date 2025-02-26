@@ -1,0 +1,31 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+    background-color: LightGray;
+    font-size: 40px;
+    grid-gap: 10px 10px;
+  }
+  
+  
+  .d1 {
+    background-color: #ec3515;
+  }
+  
+  .d2 {
+    background-color: #bb9b1b;
+    justify-self: center;
+  }
+  
+  .d3 {
+    background-color: #00ff00;
+  }
+  
+  .d4 {
+    background-color: #0080ff;
+  }
+  
+  .d5 {
+    background-color: #aa00ff;
+  }
